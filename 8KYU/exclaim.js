@@ -119,8 +119,47 @@ So there are 11 digits 1 for the squares of numbers between 0 and 25.
         }else{
           console.log(false)
         }
+      }*/
+
+
+/*     Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
+
+The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.
+
+Mind the input validation.
+Example
+
+{ 6, 2, 1, 8, 10 } => 16
+{ 1, 1, 11, 2, 3 } => 6
+
+
+      function sumArray(array) {
+
+
+        if ( ![] || array.length == 0 || array.length ==1){
+          console.log(0)
+        }
+
+        array.sort((a,b)=> a-b)
+
+        while (array[0] == array[1]){
+          array.shift()
+        } 
+        array.shift()
+        
+
+        while (array[array.length-1] == array[array.length -2]){
+          array.pop()
+        } 
+        array.pop()
+        
+
+        console.log(array.reduce((acc,e)=> acc+e, 0))
       }
+    
+
+
       
+sumArray() */
 
-
-      isValidWalk(['n','s','n','s','n','s','n','s','n','s']) */
+    
