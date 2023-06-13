@@ -191,4 +191,18 @@ squareDigits(234) */
 
 
 
-    
+/*var isSquare = function(n){
+  const squareRoot = Math.sqrt(n)
+  let str1 = squareRoot.toString()
+  return n < 0 ||  str1.includes(".") ? false : true
+}
+
+isSquare(-4)
+
+or */
+
+/*best practice
+var isSquare = function(n){ 
+  return Math.sqrt(n) % 1 === '0'
+} */
+
