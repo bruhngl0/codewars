@@ -162,4 +162,33 @@ Example
       
 sumArray() */
 
+
+/*function fakeBin(x){
+ let arr = x.split("")
+
+ for(let i = 0; i < arr.length; i++){
+  if(arr[i] < 5){
+    arr[i] = "0"
+  }else{
+    arr[i] = "1"
+  }
+ }
+
+ console.log(arr)
+ x = arr.join("")
+ console.log(x)
+
+}*/
+
+/* convert a number into its squares and contctenate them eg -- 234(input) -- 4916(output)
+function squareDigits(num){
+  let array = num.toString().split('').map((e)=> e*e)
+
+  console.log (array.join(''))
+}
+
+squareDigits(234) */
+
+
+
     
