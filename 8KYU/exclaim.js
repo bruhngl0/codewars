@@ -226,12 +226,48 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3] */
    return arr
  } */
  
- /*Best Practice
- const uniqueInOrder = d => [...d].filter((x, i, a) => x != a[i + 1]) */
+ //Best Practice
+ /*function uniqueInOrder(d){
+   console.log([...d].filter((x, i, a) => x != a[i + 1])) 
 
+ }
+
+
+ uniqueInOrder("AaaaBBBBBJJJjjjjLLLLmm")
  /*function l(d){
 
   console.log([...d])
  } 
 
 l("abvxfg is a dog") */
+
+
+
+//in this problem dont use filter method. modify the same array nums to remove the duplicates. filter returns a new array we dont want that
+/*var removeDuplicates = function(nums) {
+  let j = 0;
+  for(let i = 0; i < nums.length; i++){
+    if(nums[i]! = nums[i+1]){
+      nums[j++] = nums[i]    //here j++ operator first assigns the value and then increments. so pehle j[0] assign krega fir increment
+    }
+  }
+
+  return nums
+}; 
+
+removeDuplicates([1,1,2]) */
+
+
+
+/*var mergeTwoLists = function(list1, list2) {
+  let arr = []
+  for(let i = 0; i<list2.length; i++){
+      list1.push(list2[i])
+
+       arr = list1.sort((a,b)=> a-b)
+     
+  }
+  console.log(arr)
+};
+
+mergeTwoLists([1,2,3,4], [5,6,7,8,3])*/
