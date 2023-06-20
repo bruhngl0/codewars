@@ -270,4 +270,13 @@ removeDuplicates([1,1,2]) */
   console.log(arr)
 };
 
-mergeTwoLists([1,2,3,4], [5,6,7,8,3])*/
+mergeTwoLists([1,2,3,4], [5,6,7,8,3])*/ 
+
+
+/*function lol(str){
+console.log( str.split(" ").map((element)=> element[0].toUpperCase() + element.slice(1)).join (" "))
+
+}
+
+lol("How can mirrors be real if our eyes aren't real")
+output : How Can Mirrors Be Real If Our Eyes Aren't Real */
