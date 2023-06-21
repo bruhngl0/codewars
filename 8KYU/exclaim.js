@@ -280,3 +280,21 @@ console.log( str.split(" ").map((element)=> element[0].toUpperCase() + element.s
 
 lol("How can mirrors be real if our eyes aren't real")
 output : How Can Mirrors Be Real If Our Eyes Aren't Real */
+
+/*function alphaToNumeric(str) {
+  var result = "";
+  
+  for (var i = 0; i < str.length; i++) {
+    var charCode = str.charCodeAt(i);
+    var numericValue = charCode - 65 + 1; // Subtract 'A' and add 1 to get numeric value
+    
+    result += numericValue.toString() + " ";
+  }
+  
+  return result.trim();
+}
+
+// Example usage:
+var input = "HELLO";
+var output = alphaToNumeric(input);
+console.log(output); */
