@@ -298,3 +298,6 @@ output : How Can Mirrors Be Real If Our Eyes Aren't Real */
 var input = "HELLO";
 var output = alphaToNumeric(input);
 console.log(output); */
+
+
+//revised
